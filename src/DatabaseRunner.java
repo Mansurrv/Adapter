@@ -1,8 +1,8 @@
-public class Main {
+public class DatabaseRunner {
 
     public static void main(String[] args) {
 
-        Database db = null;
+        Database db = new Adapter();
 
         db.open();
         db.insert();
